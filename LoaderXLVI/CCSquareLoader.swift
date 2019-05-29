@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SquareLoader: UIView {
+public class CCSquareLoader: UIView {
     
     enum Position: Int {
         case topLeft
@@ -19,8 +19,8 @@ public class SquareLoader: UIView {
     
     // MARK: - private properties
     
-    private var squares = [MiniSquare]()
-    private var first: MiniSquare?
+    private var squares = [CCMiniSquare]()
+    private var first: CCMiniSquare?
     private var isFirstLoad = true
     private var squareBorderWidth: CGFloat = 11
     private var activeCorner: Position!
@@ -137,7 +137,7 @@ public class SquareLoader: UIView {
     
     // MARK: - private methods
     
-    private func configureSquareFrameAndCenter(_ square: MiniSquare) {
+    private func configureSquareFrameAndCenter(_ square: CCMiniSquare) {
         let position = square.position!
         
         let side = bounds.width/2.0 - squareBorderWidth/2.0
@@ -166,21 +166,21 @@ public class SquareLoader: UIView {
     }
     
     private func addSquare(_ at: Position) {
-        let square = MiniSquare(frame: .zero, position: at, width: squareBorderWidth)
+        let square = CCMiniSquare(frame: .zero, position: at, width: squareBorderWidth)
         squares.append(square)
         addSubview(square)
     }
     
 }
 
-class MiniSquare: UIView {
+class CCMiniSquare: UIView {
     
     // MARK: - internal properties
     
-    var position: SquareLoader.Position!
+    var position: CCSquareLoader.Position!
     
     init(frame: CGRect,
-         position: SquareLoader.Position,
+         position: CCSquareLoader.Position,
          width: CGFloat) {
         super.init(frame: frame)
 

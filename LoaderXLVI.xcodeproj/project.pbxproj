@@ -11,8 +11,8 @@
 		5FAB8F3B229E233200EDEEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAB8F3A229E233200EDEEB3 /* ViewController.swift */; };
 		5FAB8F40229E233400EDEEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB8F3F229E233400EDEEB3 /* Assets.xcassets */; };
 		5FAB8F43229E233400EDEEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB8F41229E233400EDEEB3 /* LaunchScreen.storyboard */; };
-		5FAB8F4B229E261900EDEEB3 /* SquareLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAB8F4A229E261900EDEEB3 /* SquareLoader.swift */; };
-		5FCCC558229F3C91008C093F /* LoaderXLVI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCCC557229F3C91008C093F /* LoaderXLVI.swift */; };
+		5FAB8F4B229E261900EDEEB3 /* CCSquareLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAB8F4A229E261900EDEEB3 /* CCSquareLoader.swift */; };
+		5FCCC558229F3C91008C093F /* CCLoaderXLVI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCCC557229F3C91008C093F /* CCLoaderXLVI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		5FAB8F3F229E233400EDEEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FAB8F42229E233400EDEEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FAB8F44229E233400EDEEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FAB8F4A229E261900EDEEB3 /* SquareLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLoader.swift; sourceTree = "<group>"; };
-		5FCCC557229F3C91008C093F /* LoaderXLVI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderXLVI.swift; sourceTree = "<group>"; };
+		5FAB8F4A229E261900EDEEB3 /* CCSquareLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSquareLoader.swift; sourceTree = "<group>"; };
+		5FCCC557229F3C91008C093F /* CCLoaderXLVI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCLoaderXLVI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				5FAB8F3F229E233400EDEEB3 /* Assets.xcassets */,
 				5FAB8F41229E233400EDEEB3 /* LaunchScreen.storyboard */,
 				5FAB8F44229E233400EDEEB3 /* Info.plist */,
-				5FAB8F4A229E261900EDEEB3 /* SquareLoader.swift */,
-				5FCCC557229F3C91008C093F /* LoaderXLVI.swift */,
+				5FAB8F4A229E261900EDEEB3 /* CCSquareLoader.swift */,
+				5FCCC557229F3C91008C093F /* CCLoaderXLVI.swift */,
 			);
 			path = LoaderXLVI;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FAB8F3B229E233200EDEEB3 /* ViewController.swift in Sources */,
-				5FCCC558229F3C91008C093F /* LoaderXLVI.swift in Sources */,
+				5FCCC558229F3C91008C093F /* CCLoaderXLVI.swift in Sources */,
 				5FAB8F39229E233200EDEEB3 /* AppDelegate.swift in Sources */,
-				5FAB8F4B229E261900EDEEB3 /* SquareLoader.swift in Sources */,
+				5FAB8F4B229E261900EDEEB3 /* CCSquareLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

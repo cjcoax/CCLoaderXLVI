@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var button: UIButton!
-    var loader = LoaderXLVI()
+    var loader = CCLoaderXLVI()
     let buttonTitles = ["Start Loader", "Stop Loader"]
 
     override func viewDidLoad() {
