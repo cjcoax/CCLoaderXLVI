@@ -1,6 +1,7 @@
 # Loader XLVI
 
 Loader inspired by https://dribbble.com/shots/5836300-Loader-XLVI
+
 ![alt tag](https://github.com/cjcoax/CCLoaderXLVI/blob/master/demo.gif)
 
 ## Installing
