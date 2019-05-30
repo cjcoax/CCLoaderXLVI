@@ -1,7 +1,7 @@
 # Loader XLVI
 
 Loader inspired by https://dribbble.com/shots/5836300-Loader-XLVI
-![Loader-XLVI demo](Demo.gif)
+![Loader-XLVI demo](Demo.gif =100x100)
 
 ## Installing
 
