@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FAB8F35229E233200EDEEB3 /* LoaderXLVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoaderXLVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAB8F35229E233200EDEEB3 /* CCLoaderXLVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLoaderXLVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAB8F38229E233200EDEEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FAB8F3A229E233200EDEEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FAB8F3F229E233400EDEEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5FAB8F2C229E233200EDEEB3 = {
 			isa = PBXGroup;
 			children = (
-				5FAB8F37229E233200EDEEB3 /* LoaderXLVI */,
+				5FAB8F37229E233200EDEEB3 /* CCLoaderXLVI */,
 				5FAB8F36229E233200EDEEB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5FAB8F36229E233200EDEEB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FAB8F35229E233200EDEEB3 /* LoaderXLVI.app */,
+				5FAB8F35229E233200EDEEB3 /* CCLoaderXLVI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FAB8F37229E233200EDEEB3 /* LoaderXLVI */ = {
+		5FAB8F37229E233200EDEEB3 /* CCLoaderXLVI */ = {
 			isa = PBXGroup;
 			children = (
 				5FAB8F38229E233200EDEEB3 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				5FAB8F4A229E261900EDEEB3 /* CCSquareLoader.swift */,
 				5FCCC557229F3C91008C093F /* CCLoaderXLVI.swift */,
 			);
-			path = LoaderXLVI;
+			path = CCLoaderXLVI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FAB8F34229E233200EDEEB3 /* LoaderXLVI */ = {
+		5FAB8F34229E233200EDEEB3 /* CCLoaderXLVI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FAB8F47229E233400EDEEB3 /* Build configuration list for PBXNativeTarget "LoaderXLVI" */;
+			buildConfigurationList = 5FAB8F47229E233400EDEEB3 /* Build configuration list for PBXNativeTarget "CCLoaderXLVI" */;
 			buildPhases = (
 				5FAB8F31229E233200EDEEB3 /* Sources */,
 				5FAB8F32229E233200EDEEB3 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = LoaderXLVI;
+			name = CCLoaderXLVI;
 			productName = LoaderXLVI;
-			productReference = 5FAB8F35229E233200EDEEB3 /* LoaderXLVI.app */;
+			productReference = 5FAB8F35229E233200EDEEB3 /* CCLoaderXLVI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FAB8F30229E233200EDEEB3 /* Build configuration list for PBXProject "LoaderXLVI" */;
+			buildConfigurationList = 5FAB8F30229E233200EDEEB3 /* Build configuration list for PBXProject "CCLoaderXLVI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FAB8F34229E233200EDEEB3 /* LoaderXLVI */,
+				5FAB8F34229E233200EDEEB3 /* CCLoaderXLVI */,
 			);
 		};
 /* End PBXProject section */
@@ -280,12 +280,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGAD6SU433;
-				INFOPLIST_FILE = LoaderXLVI/Info.plist;
+				INFOPLIST_FILE = CCLoaderXLVI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjcoax.LoaderXLVI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjcoax.CCLoaderXLVI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +298,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGAD6SU433;
-				INFOPLIST_FILE = LoaderXLVI/Info.plist;
+				INFOPLIST_FILE = CCLoaderXLVI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjcoax.LoaderXLVI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjcoax.CCLoaderXLVI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FAB8F30229E233200EDEEB3 /* Build configuration list for PBXProject "LoaderXLVI" */ = {
+		5FAB8F30229E233200EDEEB3 /* Build configuration list for PBXProject "CCLoaderXLVI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FAB8F45229E233400EDEEB3 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FAB8F47229E233400EDEEB3 /* Build configuration list for PBXNativeTarget "LoaderXLVI" */ = {
+		5FAB8F47229E233400EDEEB3 /* Build configuration list for PBXNativeTarget "CCLoaderXLVI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FAB8F48229E233400EDEEB3 /* Debug */,
